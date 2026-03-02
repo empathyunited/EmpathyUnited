@@ -138,13 +138,13 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 }
 
 .btn-secondary{
-  background: rgba(255,255,255,0.30);
-  border-color: rgba(15,18,16,0.16);
+  background: linear-gradient(135deg, rgba(63,127,137,0.95), rgba(184,137,90,0.78));
+  border-color: rgba(63,127,137,0.28);
   color: var(--text);
 }
 
 .btn-secondary:hover{
-  background: rgba(255,255,255,0.40);
+  background: linear-gradient(135deg, rgba(63,127,137,0.95), rgba(184,137,90,0.78));
   text-decoration: none;
 }
 
