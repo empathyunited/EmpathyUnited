@@ -222,8 +222,9 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
 }
 
 .hero-mark{
-  width: clamp(80px, 6.5vw, 120px);
-  height: clamp(80px, 6.5vw, 120px);
+  transform: translateY(-4px);
+  width: clamp(100px, 7vw, 150px);
+  height: clamp(100px, 7vw, 150px);
   object-fit: cover;
   border-radius: 999px;
   border: 1px solid rgba(15,18,16,0.18);
